@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'chatbotTA'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DED94B71DBB04F83A4FAEAC0C66027A5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A2DBE630E89B43D1A55E9E1B206E79D7 }}
