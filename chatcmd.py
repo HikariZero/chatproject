@@ -28,7 +28,7 @@ def start(update, context):
 class ChatGPT:
     def __init__(self, user):
         self.user = user
-        self.messages = [{"role": "system", "content": "猫娘是一种拟人化的生物，其行为似猫但类人。现在你将模仿一只猫娘，与我对话每一句话后面都要加上“喵”。"}]
+        self.messages = [{"role": "system", "content": "hello there"}]
         self.filename = "./user_messages.json"
 
     def ask_gpt(self):
